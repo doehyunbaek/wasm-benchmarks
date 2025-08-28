@@ -1,13 +1,15 @@
 # wasm-benchmarks
 
-Static Benchmarks
+## Static Benchmarks
 
-## WasmBench
+### WasmBench
 
-Dynamic Benchmarks
+## Dynamic Benchmarks
 
-## PolyBenchC
+### PolyBenchC
 
-## Wasm-R3-Bench
+### Wasm-R3-Bench
 
-## Wasm-Reduction-Bench
+## Specialized Benchmarks
+
+### Wasm-Reduction-Bench
