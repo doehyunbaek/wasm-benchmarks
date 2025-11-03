@@ -53,7 +53,7 @@ wasm-reduction-bench contains the following 28 bug-triggering Wasm programs unde
 wasm-reduction-bench contains the following 39 engines under the [engines](./engines) directory.
 They are compiled for x86_64 Linux.
 
-NOTE: wasmedge-862fffd.tar.gz and wasmedge-93fd4ae.tar.gz exceeded the size limit of GitHub, so they are included as .tar.gz files. You should extract them before use.
+NOTE: wasmedge-862fffd.tar.gz and wasmedge-93fd4ae.tar.gz exceed the size limit of GitHub, so they are included as .tar.gz files. You should extract them before use.
 
 - iwasm-0b0af1b
 - iwasm-0ee5ffc
