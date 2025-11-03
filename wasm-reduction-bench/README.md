@@ -4,13 +4,15 @@ This directory contains wasm-reduction-bench, a collection of 28 bug-triggering 
 
 ## Example usage
 
+NOTE: You should add PATH to [./engines](./engines) directory before running the reduction tools.
+
 Every Wasm program reduction tool has different cli options. But most take the bug-triggering Wasm program and an oracle script as input.
 In our benchmark, an oracle script is a Python script that returns exit code 0 if the input Wasm program triggers the bug, and exit code 1 otherwise.
 
 Here is an example command with [wasm-shrink](https://crates.io/crates/wasm-shrink)
 
 ```bash
-wasm-tools shrink ./oracles/fixed-by-93fd4ae.py ./programs/wasmedge#3019.wasm
+wasm-tools shrink ./oracles/fixed-by-718f067.py ./programs/wamr#2789.wasm
 ```
 
 ## List of programs
@@ -50,6 +52,7 @@ wasm-reduction-bench contains the following 28 bug-triggering Wasm programs unde
 
 wasm-reduction-bench contains the following 39 engines under the [engines](./engines) directory.
 They are compiled for x86_64 Linux.
+
 NOTE: wasmedge-862fffd.tar.gz and wasmedge-93fd4ae.tar.gz exceeded the size limit of GitHub, so they are included as .tar.gz files. You should extract them before use.
 
 - iwasm-0b0af1b
